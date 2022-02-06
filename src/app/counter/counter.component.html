@@ -1,0 +1,20 @@
+<div class="row">
+  <div class="column">
+    <h1 class="counter">
+      {{ counter }}
+    </h1>
+    <button class="increment" (click)="increment()">Increment</button>
+    <button class="decrement" (click)="decrement()">Decrement</button>
+  </div>
+  <div class="column">
+    <h1 class="step-size">
+      {{ stepSize }}
+    </h1>
+    <button class="increment-step-size" (click)="increaseStepSize()">
+      Step Size +
+    </button>
+    <button class="decrement-step-size" (click)="decreaseStepSize()">
+      Step Size -
+    </button>
+  </div>
+</div>

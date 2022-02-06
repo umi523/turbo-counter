@@ -1,0 +1,19 @@
+.column {
+  float: left;
+  width: 10%;
+  padding: 10px;
+  height: 300px;
+  text-align: center;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  margin-top: 10px;
+}
+
+.column > h4 {
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
